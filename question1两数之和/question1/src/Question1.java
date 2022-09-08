@@ -7,7 +7,7 @@ public class Question1 {
         int target = 9;
         Solution solution = new Solution();
         int[] out = solution.twoSum1(nums, target);
-        System.out.println("["+nums[0]+","+nums[1]+"]");
+        System.out.println("["+out[0]+","+out[1]+"]");
     }
 }
 
