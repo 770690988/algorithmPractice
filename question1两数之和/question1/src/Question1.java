@@ -6,7 +6,7 @@ public class Question1 {
         int[] nums = {2,7,11,1};
         int target = 9;
         Solution solution = new Solution();
-        int[] out = solution.twoSum(nums, target);
+        int[] out = solution.twoSum1(nums, target);
         System.out.println("["+nums[0]+","+nums[1]+"]");
     }
 }
@@ -39,6 +39,7 @@ class Solution {
     }
 
     public int[] twoSum1(int[] nums, int target) {
+        //这里的方式采用剩余的数，放入hashMap中，在便利的时候如果存在直接可以获取最终答案。
         int[] indexs = new int[2];
         HashMap<Integer,Integer> hash = new HashMap<Integer,Integer>();
         for(int i = 0; i < nums.length; i++){
