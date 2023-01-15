@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Question15 {
     public static void main(String[] args) {
-        int[] data = {-1,0,1,2,-1,-4};
+        int[] data = {-1,0,1,2,3,4,5};
         Solution out = new Solution();
         System.out.println(out.threeSum(data));
     }
