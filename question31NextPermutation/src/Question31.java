@@ -1,6 +1,12 @@
+import java.util.Arrays;
+import java.util.List;
+
 public class Question31 {
     public static void main(String[] args) {
-
+        int[] nums = {3,2,1};
+        Solution out = new Solution();
+        out.nextPermutation(nums);
+        System.out.println(Arrays.toString(nums));
     }
 }
 
@@ -21,6 +27,34 @@ public class Question31 {
 
 class Solution {
     public void nextPermutation(int[] nums) {
+        int index = -1;
+        for (int i = nums.length - 1; i > 0 ; i--) {
+            if (nums[i] > nums[i-1]){
+                index = i-1;
+                break;
+            }
+        }
+        if (index == -1){
+            reverseArray(nums,0);
+            return;
+        }
+        for (int i = nums.length - 1; i > index ; i--) {
+            if (nums[i] > nums[index]){
+                int temp = nums[index];
+                nums[index] = nums[i];
+                nums[i] = temp;
+                reverseArray(nums,index+1);
+                return;
+            }
+        }
+    }
 
+    public void reverseArray(int[] nums, int start){
+        int temp = 0;
+        for (int i = 0; i < (nums.length - start)/2; i++){
+            temp = nums[start + i];
+            nums[start + i] = nums[nums.length - i - 1];
+            nums[nums.length - i - 1] = temp;
+        }
     }
 }
