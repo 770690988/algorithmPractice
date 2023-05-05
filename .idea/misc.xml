@@ -4,7 +4,12 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/question207ClassSchedule/pom.xml" />
+        <option value="$PROJECT_DIR$/question2418SortByHeight/pom.xml" />
+        <option value="$PROJECT_DIR$/question100TheSameTree/pom.xml" />
+        <option value="$PROJECT_DIR$/question101SymmetricBinaryTree/pom.xml" />
+        <option value="$PROJECT_DIR$/question102SequentialTraversalOfBinaryTrees/pom.xml" />
+        <option value="$PROJECT_DIR$/question103SerratedSequenceTraversalOfBinaryTrees/pom.xml" />
+        <option value="$PROJECT_DIR$/question77Combination/pom.xml" />
       </list>
     </option>
   </component>

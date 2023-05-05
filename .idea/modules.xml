@@ -25,12 +25,12 @@
       <module fileurl="file://$PROJECT_DIR$/question40CombinedSum2/question40CombinedSum2.iml" filepath="$PROJECT_DIR$/question40CombinedSum2/question40CombinedSum2.iml" />
       <module fileurl="file://$PROJECT_DIR$/question43StringMultiplication/question43StringMultiplication.iml" filepath="$PROJECT_DIR$/question43StringMultiplication/question43StringMultiplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/question45JumpingGame2/question45JumpingGame2.iml" filepath="$PROJECT_DIR$/question45JumpingGame2/question45JumpingGame2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/question46FullPermutation/question46FullPermutation.iml" filepath="$PROJECT_DIR$/question46FullPermutation/question46FullPermutation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/question48RotatingImage/question48RotatingImage.iml" filepath="$PROJECT_DIR$/question48RotatingImage/question48RotatingImage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/question49GroupingAllophonicWords/question49GroupingAllophonicWords.iml" filepath="$PROJECT_DIR$/question49GroupingAllophonicWords/question49GroupingAllophonicWords.iml" />
       <module fileurl="file://$PROJECT_DIR$/question4寻找两个正序数组的中位数/question4寻找两个正序数组的中位数.iml" filepath="$PROJECT_DIR$/question4寻找两个正序数组的中位数/question4寻找两个正序数组的中位数.iml" />
       <module fileurl="file://$PROJECT_DIR$/question5Z-transform/question5Z-transform.iml" filepath="$PROJECT_DIR$/question5Z-transform/question5Z-transform.iml" />
       <module fileurl="file://$PROJECT_DIR$/question6IntegerReversal/question6IntegerReversal.iml" filepath="$PROJECT_DIR$/question6IntegerReversal/question6IntegerReversal.iml" />
       <module fileurl="file://$PROJECT_DIR$/question7StringConversionInteger/question7StringConversionInteger.iml" filepath="$PROJECT_DIR$/question7StringConversionInteger/question7StringConversionInteger.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testPart/testPart.iml" filepath="$PROJECT_DIR$/testPart/testPart.iml" />
     </modules>
   </component>
 </project>
