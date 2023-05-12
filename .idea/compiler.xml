@@ -11,9 +11,14 @@
         <module name="question100TheSameTree" />
         <module name="question102SequentialTraversalOfBinaryTrees" />
         <module name="question77Combination" />
+        <module name="question49GroupingOfAllophonicWords" />
         <module name="question103SerratedSequenceTraversalOfBinaryTrees" />
         <module name="question101SymmetricBinaryTree" />
+        <module name="question117PopulateNextRightNodePointer2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="question2106PickFruit" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
