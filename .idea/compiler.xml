@@ -9,12 +9,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="question2418SortByHeight" />
         <module name="question100TheSameTree" />
-        <module name="question102SequentialTraversalOfBinaryTrees" />
+        <module name="question42RainwaterHarvesting" />
+        <module name="testPart" />
         <module name="question77Combination" />
         <module name="question49GroupingOfAllophonicWords" />
+        <module name="question117PopulateNextRightNodePointer2" />
+        <module name="question53MaximumSubarraySum" />
+        <module name="question128LongestContinuousSequence" />
+        <module name="question102SequentialTraversalOfBinaryTrees" />
         <module name="question103SerratedSequenceTraversalOfBinaryTrees" />
         <module name="question101SymmetricBinaryTree" />
-        <module name="question117PopulateNextRightNodePointer2" />
+        <module name="CategoryDivided" />
+        <module name="question283MovingZero" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
