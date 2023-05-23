@@ -10,9 +10,29 @@ import java.util.HashMap;
  */
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {2,7,11,15};
-        int target = 9;
-        System.out.println(Arrays.toString(new Solution().twoSum(nums,target)));
+        int size = 100000;
+        Double data = (double) 0;
+        int[] nums = new int[size];
+        for (int i = 0; i < size; i++) {
+            nums[i] = i;
+        }
+
+        long start = System.currentTimeMillis();
+        int sum = Arrays.stream(nums).sum();
+        long end = System.currentTimeMillis();
+        System.out.println("stream串行流" + (end - start) + "ms");
+
+        start = System.currentTimeMillis();
+        sum = Arrays.stream(nums).parallel().sum();
+        end = System.currentTimeMillis();
+        System.out.println("stream并行流" + (end - start) + "ms");
+
+        start = System.currentTimeMillis();
+        for(int num : nums){
+            data += num;
+        }
+        end = System.currentTimeMillis();
+        System.out.println("foreach总耗时" + (end - start) + "ms");
     }
 }
 
