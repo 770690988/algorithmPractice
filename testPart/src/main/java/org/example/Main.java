@@ -1,7 +1,9 @@
 package org.example;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * @Author puka
@@ -10,29 +12,14 @@ import java.util.HashMap;
  */
 public class Main {
     public static void main(String[] args) {
-        int size = 100000;
-        Double data = (double) 0;
-        int[] nums = new int[size];
-        for (int i = 0; i < size; i++) {
-            nums[i] = i;
-        }
+        Integer i5 = 128;
+        Integer i6 = 128;
+        List<Integer> data = new ArrayList<>();
+        data.add(i5);
+        data.add(i6);
+        System.out.println(Arrays.toString(data.toArray()));
+        System.out.println(Arrays.toString(data.toArray()));
 
-        long start = System.currentTimeMillis();
-        int sum = Arrays.stream(nums).sum();
-        long end = System.currentTimeMillis();
-        System.out.println("stream串行流" + (end - start) + "ms");
-
-        start = System.currentTimeMillis();
-        sum = Arrays.stream(nums).parallel().sum();
-        end = System.currentTimeMillis();
-        System.out.println("stream并行流" + (end - start) + "ms");
-
-        start = System.currentTimeMillis();
-        for(int num : nums){
-            data += num;
-        }
-        end = System.currentTimeMillis();
-        System.out.println("foreach总耗时" + (end - start) + "ms");
     }
 }
 
