@@ -6,6 +6,9 @@ import java.util.Arrays;
  * @Author puka
  * @Description 一和零
  * @Date 2023/5/23 10:38
+ * @Question    给你一个二进制字符串数组strs和两个整数m和n。
+ *              请你找出并返回strs的最大子集的长度，该子集中最多有m个0和n个1。
+ *              如果x的所有元素也是y的元素，集合x是集合y的子集。
  */
 public class Question474 {
     public static void main(String[] args) {

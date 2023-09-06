@@ -20,7 +20,7 @@ public class Question509 {
 class Solution {
     public int fib(int n) {
         if (n < 2) return n;
-        //这个就是dp数组
+        //这个就是dp数组 dp[i] 表示的是第i个斐波那契额数的值
         int[] dp = new int[n+1];
         //这里是dp的初始化 这一步要在下面的动态转移方程出来之后进行填写
         dp[0] = 0;

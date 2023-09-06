@@ -29,10 +29,13 @@ class Solution {
     public int minCostClimbingStairs(int[] cost) {
         int length = cost.length;
         if (length < 2) return 0;
+        //dp[i]表示的是爬到第i层所需要的最小花费
         int[] dp = new int[length+1];
+        //dp数组的初始化
         dp[0] = 0;
         dp[1] = 0;
         for (int i = 2; i <= length; i++) {
+            //递推关系式
             dp[i] = Math.min(dp[i-1] + cost[i-1],dp[i-2] + cost[i-2]);
         }
         return dp[length-1];
